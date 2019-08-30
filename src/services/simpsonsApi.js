@@ -1,4 +1,4 @@
-export const getQuotes = (count = 20) => {
+export const getQuotes = (count = 6) => {
   return fetch(`https://thesimpsonsquoteapi.glitch.me/quotes?count=${count}`)
     .then(res => {
       if(!res.ok) throw 'Unable to fetch quote';
