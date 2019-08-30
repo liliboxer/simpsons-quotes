@@ -1,10 +1,10 @@
-import { getQuote } from '../services/simpsonsApi';
+import { getQuotes } from '../services/simpsonsApi';
 
-export const FETCH_QUOTE = 'FETCH_QUOTE';
-export const FETCH_QUOTE_LOADING = 'FETCH_QUOTE_LOADING';
+export const FETCH_QUOTES = 'FETCH_QUOTES';
+export const FETCH_QUOTES_LOADING = 'FETCH_QUOTES_LOADING';
 
-export const fetchQuote = () => ({
-  type: FETCH_QUOTE,
-  payload: getQuote(),
-  payloadType: FETCH_QUOTE_LOADING
+export const fetchQuotes = () => ({
+  type: FETCH_QUOTES,
+  payload: getQuotes(),
+  payloadType: FETCH_QUOTES_LOADING
 });

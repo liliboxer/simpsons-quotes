@@ -18,5 +18,5 @@ Quote.propTypes = {
   characterImage: PropTypes.string.isRequired
 };
 
-export default Quote();
+export default Quote;
 

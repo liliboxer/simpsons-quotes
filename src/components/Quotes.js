@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Quote from './Quote';
 
 function Quotes({ quotes }) {
+  console.log(quotes);
   const quoteList = quotes.map((quote, i) => (
     <li key={i}>
       <Quote 
