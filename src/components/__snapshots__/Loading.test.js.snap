@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading component renders Loading 1`] = `
+<section
+  className="Loading"
+>
+  <button
+    onClick={[Function]}
+  >
+    Load More Quotes
+  </button>
+</section>
+`;

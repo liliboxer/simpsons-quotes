@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes component renders Quotes 1`] = `
+<ul
+  className="Quotes"
+/>
+`;
